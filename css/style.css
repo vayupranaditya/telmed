@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper
+	{
+		height:auto;
+		width:auto;
+		background-color:#06F;
+	}
+#header
+	{
+		height:60px;
+		width:auto;
+		background-color:#00F;
+	}
+#left_sidebar
+	{
+	height: 100%;
+	width: 20%;
+	float: left;
+	}
+#right_sidebar
+	{
+	height: 100%;
+	width: 20%;
+	float: right;
+	}
+	.kategori
+	{
+	position: relative;
+	width: 85%;
+	margin: 7.5%;
+	background-color: white;
+	}
+#content
+	{
+	height: 100%;
+	width: 60%;
+	background-color: #0CC;
+	position: relative;
+	left: 00%;
+	}
+	.kiriman {
+	width: 80%;
+	position: relative;
+	background-color: #09C;
+	margin: 20px 10%;
+}
+
+#footer
+	{
+	height: 60px;
+	width: auto;
+	background-color: #0CC;
+	text-align: center;
+	}

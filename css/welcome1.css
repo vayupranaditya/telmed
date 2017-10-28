@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+html, body
+{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+#container
+{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+	#welcome_atas
+	{
+		height:150px;
+		width:1366px;
+		background-color:#F00;
+	}
+		#tulisan_welcome
+		{
+			height:150px;
+			width:1024.5px;
+			line-height:150px;
+			float:left;
+			text-align:center;
+			font-family:"Century Gothic";
+			font-size:72px;
+			color:#888;
+		}
+		#login
+		{
+			padding:40px 0px;
+			float:right;
+			width:341.5px;
+			text-align:center;
+		}
+	#welcome_bawah
+	{
+		width:1366px;
+		height:522px;
+		background-color:#999999;
+		position:relative;
+	}
+		#welcome_gambar
+		{
+			width:1024.5px;
+			float:left;
+			z-index:1;
+		}
+			#intro_telmed
+			{
+				padding:10px;
+				height:446px;
+				width:904px;
+				background-color:#FFF;
+				opacity:0.5;
+				position:absolute;
+				top:28px;
+				left:52.5px;
+				z-index:2;
+				font-size:24px;
+			}
+		#sign_up
+		{
+			width:341.5px;
+			float:right;
+		}

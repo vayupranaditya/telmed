@@ -1,0 +1,80 @@
+body
+{
+	margin: 0px;
+	font-family: "century gothic";
+}
+	.content
+	{
+		width:100%;
+		min-height: 100vh;
+		background-color: #efffb2;
+	}
+		.top
+		{
+			text-align: center;
+			font-size: 10vh;
+		}
+		.middle
+		{
+
+		}
+		.bottom
+		{
+			text-align: center;
+			font-family: "times new roman";
+			font-size: 2.1vh;
+			background-color: #d0e094;
+		}
+			.basic_info
+			{
+				display: table;
+				padding: 0px 10%;
+			}
+				.user_pic
+				{
+					width:50vh;
+					display: table-cell;
+					text-align: right;
+				}
+				.user_info
+				{
+					width: calc(100% - 50vh);
+					display: table-cell;
+					font-size: 4vh;
+				}
+				.detailed_info_1
+				{
+					width:100%;
+					display: table;
+				}
+				.detailed_info_0
+				{
+					width: 100%;
+					display: table;
+				}
+					.info_title
+					{
+						font-size: 8vh;
+						line-height: auto;
+					}
+					.data_1
+					{
+						width: 60%;
+						display: table-cell;
+						text-align: left;
+						background: -webkit-linear-gradient(right, rgba(94, 155, 255,0), rgba(94, 155, 255,1)); /* For Safari 5.1 to 6.0 */
+    					background: -o-linear-gradient(left, rgba(94, 155, 255,0), rgba(94, 155, 255,1)); /* For Opera 11.1 to 12.0 */
+    					background: -moz-linear-gradient(left, rgba(94, 155, 255,0), rgba(94, 155, 255,1)); /* For Firefox 3.6 to 15 */
+    					background: linear-gradient(to left, rgba(94, 155, 255,0), rgba(94, 155, 255,1));
+
+					}
+					.data_0
+					{
+						width: 60%;
+						display: table-cell;
+						text-align: left;
+						background: -webkit-linear-gradient(left, rgba(255, 94, 94,0), rgba(255, 94, 94,1)); /* For Safari 5.1 to 6.0 */
+    					background: -o-linear-gradient(right, rgba(255, 94, 94,0), rgba(255, 94, 94,1)); /* For Opera 11.1 to 12.0 */
+    					background: -moz-linear-gradient(right, rgba(255, 94, 94,0), rgba(255, 94, 94,1)); /* For Firefox 3.6 to 15 */
+    					background: linear-gradient(to right, rgba(255, 94, 94,0), rgba(255, 94, 94,1));
+					}

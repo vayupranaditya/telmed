@@ -1,0 +1,26 @@
+body
+{
+	margin: 0px;
+	font-family: "century gothic";
+}
+	.content
+	{
+		width:100%;
+		min-height: 100vh;
+		background-color: #555;
+	}
+		.top
+		{
+			text-align: center;
+			font-size: 10vh;
+		}
+		.middle
+		{
+
+		}
+		.bottom
+		{
+			text-align: center;
+			font-family: "times new roman";
+			font-size: 2.1vh;
+		}

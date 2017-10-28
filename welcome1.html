@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tel-Med Homepage</title>
+<link href="CSS/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id='container'>
+        <div id='welcome_atas'>
+            <div id='tulisan_welcome'>
+            	<span style="vertical-align:middle; display:inline-block">Telkom University Media</span>
+            </div>
+            <div id='login'>
+            	<form action='logging_in.php' method='POST'>
+                	Email <input type='email' name='email'/><br />
+                    Password <input type='password' name='password' /><br />
+                    <input type='submit' value='Masuk'/>
+                    </form>
+            </div>
+		</div>
+        <div id='welcome_bawah'>
+            <div id='sign_up'>
+            	<h3>Tidak memiliki akun?<br />
+                Silahkan bergabung! Gratis!</h3>
+            	<form action="daftarkan_akun.php" method='POST'>
+                	Nama Lengkap <input type='text' name='nama_lengkap'/><br />
+                    Alamat Email <input type='email' name='email'/><br />
+                    Password <input type='password' name='password'/><br />
+                    Ulangi Password <input type='password' name='password2'/><br />
+                    <input type='submit' value='Daftar!'/>
+                </form>
+                <br />
+                <span>Belum tertarik bergabung? Coba fitur Tel-Med dengan masuk sebagai <a href="logintamu.php">tamu</a></span>
+            </div>
+            <div id='welcome_gambar'>
+            	<img src="images/telkom_welcome.jpg" style="height: 522px; width: 1024px;" />
+                <div id='intro_telmed'>
+                	<span style="opacity:1">
+                    <strong style="font-size:36px">Tel-Med</strong><br />
+                    <p>
+                    Tel-Med, atau Telkom-University Media,
+yang merupakan jejaring sosial khusus masyarakat Telkom University.
+Tel-Med hadir sebagai wadah bagi masyarakat Telkom University, khususnya mahasiswa dan mahasiswi,
+untuk saling bercengkrama, berbagi ilmu, bahkan membagikan jasa.</p>
+</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

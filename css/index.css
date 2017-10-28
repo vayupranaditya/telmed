@@ -1,0 +1,43 @@
+body {
+	margin:0px;
+	color: black;}
+	
+	.index_atas {
+		height:20vh;
+		width:100%;
+		background-color:#F00; }
+	.index_bawah {
+		height:80vh;
+		width: 100%;
+		background-color:#090;}
+		
+		.tulisan_telmed {
+			height:20vh;
+			width:70%;
+			padding:1%;
+			font-size:10vh;
+			text-align:center;
+			font-family:"Century Gothic", "Arial Narrow", Arial}
+		.login_form {
+			height:20vh;
+			width:30%;
+			padding:2%;
+			text-align:center;}
+		.bawah_kiri {
+			height:80vh;
+			width:70%;
+			background-image:url(../images/telkom_welcome.jpg);
+			background-size: 100% 100%;}
+		.bawah_kanan {
+			height:80vh;
+			width: 30%;
+			background-color:#999;
+			padding: 20vh 2%}
+			
+			.tentang_telmed {
+				height:70vh;
+				width:90%;
+				background-color:#FFF; 
+				opacity: 0.5;
+				margin: 5vh 5%;
+				padding: 15vh 2vh;}
